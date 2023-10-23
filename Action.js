@@ -15,7 +15,7 @@ const action = async (context, token, page, record) => {
   }
   try {
     if (sendMail === "success") {
-      for (let i = 0; i < 3; i++) {
+      for (let i = 0; i < 5; i++) {
         await page.waitFor(3000)
         urlId = await getLink(mail, pass)
         console.log('urlId...');
