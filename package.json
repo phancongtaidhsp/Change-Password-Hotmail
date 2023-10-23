@@ -33,6 +33,7 @@
     "child_process": "^1.0.2",
     "delay": "^4.4.0",
     "fs-extra": "^9.0.0",
+    "https": "^1.0.0",
     "imap-simple": "^5.1.0",
     "lodash": "^4.17.21",
     "mailparser": "^3.5.0",
